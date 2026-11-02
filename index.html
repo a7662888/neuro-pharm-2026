@@ -185,6 +185,32 @@ table.k-table td.k-item{font-size:29px}
 .k-pdz-dys{background:#FBEDE8;color:#B5482F}
 .k-pdz-on{background:#2E8B74;color:#FFFFFF}
 .k-pdz-off{background:#F0F2F4;color:#5F6B77}
+
+/* 2026-11-02 留白審查第二輪：再放大主要元件；剩餘空間讓內容均勻分布（不再全擠在上半部） */
+.k-body{justify-content:space-evenly}
+table.k-table{font-size:30px}
+table.k-table td{padding:20px 22px}
+table.k-table td.k-item{font-size:30px}
+table.k-table th{font-size:25px}
+table.k-cmp{font-size:28px}
+table.k-cmp td{padding:16px 20px}
+.k-card h3{font-size:34px}
+.k-card p{font-size:29px}
+.k-step h3{font-size:34px}
+.k-step p{font-size:28px}
+.k-tg h4{font-size:32px}
+.k-tg .k-tg-what{font-size:26px}
+.k-tg .k-tg-drug{font-size:26px}
+.k-cg-node h4{font-size:34px}
+.k-cg-node p{font-size:27px}
+.k-hb .k-ht{height:54px}
+.k-hb{gap:18px}
+.k-hb .k-hl{font-size:28px}
+.k-hb .k-hv{font-size:36px}
+.k-body .k-take{font-size:32px;padding:18px 26px}
+.k-evi .k-big2{font-size:64px}
+.k-warn p{font-size:30px}
+.k-hb.k-tight .k-ht{height:38px}.k-hb.k-tight{gap:8px}.k-hb.k-tight .k-hv{font-size:30px}.k-hb.k-tight .k-hl{font-size:25px}
 </style>
 </head>
 <body>
@@ -1309,12 +1335,12 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">復發風險集中在第一週；DAPT 在這段時間收益最大，拉長就只剩出血</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>試驗</th><th>族群與時機</th><th>方案</th><th>中風／缺血事件</th><th>出血</th></tr>
-<tr data-s="1"><td class="k-item">CHANCE（n = 5,170）</td><td>輕度中風、TIA；24 小時內</td><td>C＋A 21 天→C</td><td class="k-amt" style="font-size:30px">8.2% vs 11.7%（HR 0.68）</td><td>0.3% vs 0.3%</td></tr>
-<tr data-s="2"><td class="k-item">POINT（n = 4,881）</td><td>輕度中風、高風險 TIA</td><td>C＋A 90 天</td><td class="k-amt" style="font-size:30px">5.0% vs 6.5%（HR 0.75）</td><td>重大出血增加</td></tr>
-<tr data-s="3"><td class="k-item">INSPIRES（n = 6,100）</td><td>粥狀硬化；72 小時內</td><td>C＋A 21 天</td><td class="k-amt" style="font-size:30px">7.3% vs 9.2%（HR 0.79）</td><td>0.9% vs 0.4%</td></tr>
-<tr data-s="4"><td class="k-item">CHANCE-2（n = 6,412）</td><td>CYP2C19 失功能帶因者</td><td>T＋A vs C＋A</td><td class="k-amt" style="font-size:30px">6.0% vs 7.6%（HR 0.77）</td><td>0.3% vs 0.3%</td></tr>
+<tr data-s="1"><td class="k-item">CHANCE（n = 5,170）</td><td>輕度中風、TIA；24 小時內</td><td>C＋A 21 天→C</td><td class="k-amt">8.2% vs 11.7%（HR 0.68）</td><td>0.3% vs 0.3%</td></tr>
+<tr data-s="2"><td class="k-item">POINT（n = 4,881）</td><td>輕度中風、高風險 TIA</td><td>C＋A 90 天</td><td class="k-amt">5.0% vs 6.5%（HR 0.75）</td><td>重大出血增加</td></tr>
+<tr data-s="3"><td class="k-item">INSPIRES（n = 6,100）</td><td>粥狀硬化；72 小時內</td><td>C＋A 21 天</td><td class="k-amt">7.3% vs 9.2%（HR 0.79）</td><td>0.9% vs 0.4%</td></tr>
+<tr data-s="4"><td class="k-item">CHANCE-2（n = 6,412）</td><td>CYP2C19 失功能帶因者</td><td>T＋A vs C＋A</td><td class="k-amt">6.0% vs 7.6%（HR 0.77）</td><td>0.3% vs 0.3%</td></tr>
 </table>
 <div class="k-take" data-s="5">臨床多採 21 天；C = clopidogrel，A = aspirin，T = ticagrelor</div>
 <p class="k-cite">出處：Wang Y 2013 NEJM PMID 23803136｜Johnston SC 2018 NEJM PMID 29766750｜Gao Y 2023 NEJM PMID 38157499｜Wang Y 2021 NEJM PMID 34708996</p>
@@ -1365,7 +1391,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">DOAC 直接抑制單一凝血因子，起效快、交互作用少；腎功能與反轉劑是選藥的兩個實務關鍵</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>藥物</th><th>標靶</th><th>特性</th><th>腎排除</th><th>反轉</th></tr>
 <tr data-s="1"><td class="k-item">Warfarin</td><td>VKORC1</td><td>需 INR 監測；食物與藥物交互作用多</td><td>低</td><td>維生素 K＋PCC</td></tr>
 <tr data-s="2"><td class="k-item">Dabigatran</td><td>凝血酶（IIa）</td><td>前驅藥（etexilate）</td><td style="color:#B5482F;font-weight:900">最高</td><td>idarucizumab</td></tr>
@@ -1652,7 +1678,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">藥物不能取代復健；目標是處理會阻礙復健與生活品質的併發症</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>併發症</th><th>證據</th><th>臨床做法</th></tr>
 <tr data-s="1"><td class="k-item">預防性 SSRI</td><td>FOCUS（n = 3,127）：fluoxetine 6 個月，mRS 無改善（cOR 0.951）；新憂鬱 13.4% vs 17.2%；骨折 2.9% vs 1.5%</td><td>不常規用於促進恢復；確診憂鬱再治療</td></tr>
 <tr data-s="2"><td class="k-item">痙攣</td><td>肉毒桿菌毒素局部注射</td><td>健保給付須事前審查</td></tr>
@@ -1741,7 +1767,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">診斷決定藥物；慢性偏頭痛與 MOH 的界定，也直接決定台灣健保的 CGRP 抗體給付門檻</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>診斷</th><th>核心條件</th></tr>
 <tr data-s="1"><td class="k-item">無預兆偏頭痛</td><td>≥ 5 次發作；每次 4–72 小時；單側、搏動、中重度、活動加劇四項中 ≥ 2 項；噁心嘔吐或畏光畏聲 ≥ 1 項（5-4-3-2-1）</td></tr>
 <tr data-s="2"><td class="k-item">慢性偏頭痛</td><td>頭痛每月 ≥ 15 天、持續 &gt; 3 個月，其中 ≥ 8 天符合偏頭痛特徵或對偏頭痛專一藥物有效</td></tr>
@@ -1992,7 +2018,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">台灣準則：propranolol 為陣發性偏頭痛一線；valproate、topiramate、flunarizine、amitriptyline 為二線</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>藥物</th><th>類別與推測機轉</th><th>適合族群</th><th>要注意</th></tr>
 <tr data-s="1"><td class="k-item">Propranolol</td><td>β 阻斷劑</td><td>合併高血壓、焦慮</td><td>氣喘、低血壓、憂鬱</td></tr>
 <tr data-s="1"><td class="k-item">Topiramate</td><td>Na⁺、GABA、AMPA、碳酸酐酶</td><td>肥胖；慢性偏頭痛</td><td>認知遲鈍、手麻、結石、致畸</td></tr>
@@ -2016,7 +2042,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">大分子不經肝腎代謝、半衰期長、藥物交互作用少；每月或每季給藥</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>抗體</th><th>標靶</th><th>給藥</th><th>健保 1.6.5</th></tr>
 <tr data-s="1"><td class="k-item">Erenumab</td><td>CGRP 受體</td><td>70 或 140 mg 皮下，每月</td><td>未收載</td></tr>
 <tr data-s="2"><td class="k-item">Fremanezumab</td><td>CGRP 配體</td><td>225 mg 每月或 675 mg 每 3 個月，皮下</td><td class="k-pay" style="color:#3F7A55">收載</td></tr>
@@ -2068,11 +2094,11 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">小分子 CGRP 受體拮抗劑，每日或隔日口服；陣發性與慢性偏頭痛都有第三期證據</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>試驗</th><th>族群</th><th>方案</th><th>每月偏頭痛日（vs 安慰劑）</th></tr>
-<tr data-s="1"><td class="k-item">ADVANCE</td><td>陣發性（基線 7.5–7.9 天）</td><td>atogepant 10／30／60 mg 每日</td><td class="k-amt" style="font-size:30px">−3.7／−3.9／−4.2（−2.5）</td></tr>
-<tr data-s="2"><td class="k-item">PROGRESS</td><td>慢性（基線約 19 天）</td><td>atogepant 30 mg 每日兩次／60 mg 每日</td><td class="k-amt" style="font-size:30px">−7.5／−6.9（−5.1）</td></tr>
-<tr data-s="3"><td class="k-item">Croop 2021</td><td>陣發或慢性</td><td>rimegepant 75 mg 隔日</td><td class="k-amt" style="font-size:30px">−4.3（−3.5）</td></tr>
+<tr data-s="1"><td class="k-item">ADVANCE</td><td>陣發性（基線 7.5–7.9 天）</td><td>atogepant 10／30／60 mg 每日</td><td class="k-amt">−3.7／−3.9／−4.2（−2.5）</td></tr>
+<tr data-s="2"><td class="k-item">PROGRESS</td><td>慢性（基線約 19 天）</td><td>atogepant 30 mg 每日兩次／60 mg 每日</td><td class="k-amt">−7.5／−6.9（−5.1）</td></tr>
+<tr data-s="3"><td class="k-item">Croop 2021</td><td>陣發或慢性</td><td>rimegepant 75 mg 隔日</td><td class="k-amt">−4.3（−3.5）</td></tr>
 </table>
 <div class="k-take" data-s="4">口服、可隨時停；PROGRESS 最常見副作用是便秘（約 10–11% vs 3%）與噁心</div>
 <p class="k-cite">出處：Ailani J 2021 NEJM PMID 34407343｜Pozo-Rosich P 2023 Lancet PMID 37516125｜Croop R 2021 Lancet PMID 33338437</p>
@@ -2191,11 +2217,11 @@ table.k-table td.k-item{font-size:29px}
 <div class="k-body">
 <table class="k-table">
 <tr><th>階段</th><th>治療</th><th>證據</th></tr>
-<tr data-s="1"><td class="k-item">急性</td><td>100% 氧氣 12 L/min，15 分鐘</td><td class="k-amt" style="font-size:32px">15 分鐘無痛 78% vs 空氣 20%</td></tr>
+<tr data-s="1"><td class="k-item">急性</td><td>100% 氧氣 12 L/min，15 分鐘</td><td class="k-amt">15 分鐘無痛 78% vs 空氣 20%</td></tr>
 <tr data-s="1"><td class="k-item">急性</td><td>皮下 sumatriptan</td><td>—</td></tr>
 <tr data-s="2"><td class="k-item">橋接</td><td>口服類固醇、枕大神經阻斷</td><td>—</td></tr>
 <tr data-s="3"><td class="k-item">預防</td><td>verapamil（監測心電圖 PR）</td><td>—</td></tr>
-<tr data-s="3"><td class="k-item">預防</td><td>galcanezumab 300 mg（陣發性）</td><td class="k-amt" style="font-size:32px">每週發作 −8.7 vs −5.2</td></tr>
+<tr data-s="3"><td class="k-item">預防</td><td>galcanezumab 300 mg（陣發性）</td><td class="k-amt">每週發作 −8.7 vs −5.2</td></tr>
 </table>
 <div class="k-take" data-s="4">急性首選 100% 氧氣；預防以 verapamil 為主，需監測心電圖</div>
 <p class="k-cite">出處：Cohen AS, et al. JAMA 2009;302:2451–2457. PMID 19996400｜Goadsby PJ, et al. N Engl J Med 2019;381:132–141. PMID 31291515</p>
@@ -2214,7 +2240,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">同樣的藥在不同族群風險不同；藥物禁忌、懷孕或不願服藥者可考慮裝置與生物行為治療</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>族群</th><th>急性</th><th>預防</th><th>避免</th></tr>
 <tr data-s="1"><td class="k-item">懷孕、哺乳</td><td>acetaminophen 首選</td><td>不建議預防藥；優先非藥物</td><td>valproate、topiramate</td></tr>
 <tr data-s="1"><td class="k-item">月經相關</td><td>NSAID、triptan</td><td>經期短期 NSAID 或 triptan</td><td>—</td></tr>
@@ -2338,7 +2364,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">AD 是生物學過程，從無症狀期的神經病理變化開始；Core 1 異常即可診斷，Core 2 提供預後資訊</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>類別</th><th>生物標記</th><th>用途</th></tr>
 <tr data-s="1"><td class="k-item">Core 1（早期）</td><td>類澱粉 PET；核准的 CSF 標記；準確的血漿標記（尤其 p-tau217）</td><td>異常即足以診斷 AD，支持臨床決策</td></tr>
 <tr data-s="2"><td class="k-item">Core 2（晚期）</td><td>生物體液標記；tau PET</td><td>預後資訊；增加 AD 造成症狀的信心</td></tr>
@@ -2448,7 +2474,7 @@ table.k-table td.k-item{font-size:29px}
 <div class="k-card navy" data-s="3"><h3>加上 memantine</h3><p>佔據通道 → 雜訊被擋</p></div>
 <div class="k-card sage" data-s="4"><h3>生理性強刺激</h3><p>強去極化使 memantine 快速脫離</p></div>
 </div>
-<table class="k-table" data-s="5" style="margin-top:20px;font-size:26px">
+<table class="k-table" data-s="5" style="margin-top:20px">
 <tr><th>族群（Cochrane 2019）</th><th>結果</th></tr>
 <tr><td class="k-item">中重度 AD（約 3,700 人）</td><td>SIB +3.11、ADL +1.09、NPI +1.84：小但一致的效益</td></tr>
 <tr><td class="k-item">輕度 AD（MMSE 20–23）</td><td>認知、ADL、行為與安慰劑無差異</td></tr>
@@ -2471,7 +2497,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">各量表範圍不同；用「量表總分的幾分之幾」與「病人看得出的改變」來思考</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>藥物與比較</th><th>量表（範圍）</th><th>差距</th><th>時間</th></tr>
 <tr data-s="1"><td class="k-item">Donepezil 10 mg vs 安慰劑</td><td>ADAS-Cog（0–70）</td><td class="k-amt">−2.67</td><td>26 週</td></tr>
 <tr data-s="1"><td class="k-item">Donepezil 10 mg vs 安慰劑</td><td>MMSE（0–30）</td><td class="k-amt">+1.05</td><td>26 週</td></tr>
@@ -2496,7 +2522,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">限 AD 或 PDD；初次使用需影像或 Hachinski、血液檢查與 MMSE／CDR；血管性失智與嚴重傳導阻滯不建議</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>嚴重度</th><th>MMSE／CDR</th><th>給付藥物</th><th>備註</th></tr>
 <tr data-s="1"><td class="k-item">輕度至中度 AD</td><td class="k-pay">MMSE 10–26 或 CDR 1–2</td><td>donepezil、rivastigmine、galantamine</td><td>神經科或精神科</td></tr>
 <tr data-s="2"><td class="k-item">中重度 AD</td><td class="k-pay">10 ≦ MMSE ≦ 14 或 CDR 2</td><td>memantine；可由 ChEI 換用或併用</td><td>神經科或精神科</td></tr>
@@ -2569,7 +2595,7 @@ table.k-table td.k-item{font-size:29px}
 <p data-step="0">兩支抗體都能降低類澱粉並減緩臨床惡化，但標的不同。</p>
 <p data-step="1">Lecanemab 抓可溶性的 protofibril；donanemab 抓斑塊裡 N 端被焦麩胺酸化的 Aβ，所以清完可以停藥。</p>
 <p data-step="2">CDR-SB 的絕對差距是 0.45 與 0.67 分，請同學思考這在臨床上代表什麼；ARIA-E 則是 donanemab 約為兩倍。</p>
-<p data-step="3">這是 TRAILBLAZER-ALZ 2 的原文曲線，差距從第 24 週開始拉開。</p>
+<p data-step="3">左邊是 Clarity AD、右邊是 TRAILBLAZER-ALZ 2 的原文曲線：兩條線都是逐漸拉開，代表減緩的是惡化斜率，不是把分數拉回來。</p>
 </template>
 </section>
 <section class="k-slide" data-chapter="失智症" data-title="ARIA">
@@ -2638,7 +2664,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">給藥更方便、ARIA 更少、失敗也是答案；管線仍以疾病標靶治療為主</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>進展</th><th>內容</th></tr>
 <tr data-s="1"><td class="k-item">Lecanemab 皮下劑型</td><td>靜脈起始後可改皮下維持（250 mg 每週），或皮下起始 500 mg 每週（模型設定；核准劑量以仿單為準）</td></tr>
 <tr data-s="2"><td class="k-item">Donanemab 改良滴定</td><td>TRAILBLAZER-ALZ 6：ARIA-E 24.2% → 15.6%，類澱粉清除相當</td></tr>
@@ -2714,7 +2740,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">抗精神病藥有增加死亡的黑框警語；每個選項都要與照顧者討論目標與停藥條件</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>藥物</th><th>機轉</th><th>證據</th><th>代價</th></tr>
 <tr data-s="1"><td class="k-item">Brexpiprazole 2–3 mg</td><td>D2 與 5-HT1A 部分促效、5-HT2A 拮抗</td><td>CMAI −22.6 vs −17.3（差 −5.32）</td><td>抗精神病藥黑框警語</td></tr>
 <tr data-s="2"><td class="k-item">Citalopram（CitAD）</td><td>SSRI</td><td>CGIC 中度以上改善 40% vs 26%</td><td>QT 延長 18.1 ms；認知 −1.05</td></tr>
@@ -2760,7 +2786,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">路易氏體、帕金森、血管性、額顳葉失智對藥物的反應與風險截然不同</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>類型</th><th>病理與特徵</th><th>藥理重點</th></tr>
 <tr data-s="1"><td class="k-item">路易氏體失智（DLB）</td><td>α-syn；RBD、MIBG 心肌掃描權重提高</td><td>膽鹼缺損明顯，ChEI 常有效；<strong style="color:#B5482F">對抗精神病藥極敏感</strong></td></tr>
 <tr data-s="2"><td class="k-item">帕金森病失智（PDD）</td><td>PD 至少一年後出現失智</td><td>健保：rivastigmine 口服（神經科）</td></tr>
@@ -2836,7 +2862,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">目標從「延緩退化」轉為「舒適與功能」；每一個藥都要重新問：還有幫助嗎？</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>藥物</th><th>考慮停藥或減量的時機</th></tr>
 <tr data-s="1"><td class="k-item">ChEI、memantine</td><td>健保：MMSE 下降超過 2 分或 CDR 退步 1 級；重度者臥床或無行動能力不給付</td></tr>
 <tr data-s="2"><td class="k-item">抗精神病藥</td><td>BPSD 改善後 4 個月內嘗試減量；減量中與停藥後每月重評</td></tr>
@@ -3022,38 +3048,36 @@ table.k-table td.k-item{font-size:29px}
 <section class="k-slide" data-chapter="帕金森" data-title="左多巴治療窗">
 <div class="k-head">
 <h2>左多巴：治療窗隨病程變窄</h2>
-<p class="k-sub">早期末梢仍能儲存與緩衝；晚期緩衝消失，療效完全跟著血中濃度起伏——出現藥效減退與異動症</p>
+<p class="k-sub">病程愈久，ON 所需濃度上升、異動症閾值下降；一天之中療效完全跟著血中濃度起伏</p>
 </div>
 <div class="k-body">
-<div class="k-g2">
-<div data-s="1">
-<p class="k-syn-band" style="margin:0 0 8px">早期：寬的治療窗（示意）</p>
-<div class="k-pdwin">
-<div class="k-pdz k-pdz-dys" style="height:22%">異動症</div>
-<div class="k-pdz k-pdz-on" style="height:56%">治療窗（ON）</div>
-<div class="k-pdz k-pdz-off" style="height:22%">OFF</div>
+<div class="k-tabs"><button data-step-btn="1">重繪：病程與一天</button></div>
+<div class="k-split" data-s="1" data-sto="3" style="grid-template-columns:780px 1fr;gap:34px;align-items:stretch">
+<div>
+<p class="k-syn-band" style="margin:0 0 8px">病程：治療窗（深色）逐年變窄（示意）</p>
+<div class="k-g3" style="gap:12px">
+<div><div class="k-pdwin" style="height:470px"><div class="k-pdz k-pdz-dys" style="height:12%">異動</div><div class="k-pdz k-pdz-on" style="height:76%">ON</div><div class="k-pdz k-pdz-off" style="height:12%">OFF</div></div><p class="k-gencap" style="text-align:center;font-size:24px;font-weight:900">輕度（0 年）</p></div>
+<div><div class="k-pdwin" style="height:470px"><div class="k-pdz k-pdz-dys" style="height:30%">異動症</div><div class="k-pdz k-pdz-on" style="height:40%">ON</div><div class="k-pdz k-pdz-off" style="height:30%">OFF</div></div><p class="k-gencap" style="text-align:center;font-size:24px;font-weight:900">中度（約 4 年）</p></div>
+<div><div class="k-pdwin" style="height:470px"><div class="k-pdz k-pdz-dys" style="height:43%">異動症</div><div class="k-pdz k-pdz-on" style="height:14%;font-size:22px">ON</div><div class="k-pdz k-pdz-off" style="height:43%">OFF</div></div><p class="k-gencap" style="text-align:center;font-size:24px;font-weight:900">重度（&gt; 10 年）</p></div>
 </div>
 </div>
-<div data-s="2">
-<p class="k-syn-band" style="margin:0 0 8px">晚期：窄的治療窗（示意）</p>
-<div class="k-pdwin">
-<div class="k-pdz k-pdz-dys" style="height:42%">異動症</div>
-<div class="k-pdz k-pdz-on" style="height:16%">治療窗</div>
-<div class="k-pdz k-pdz-off" style="height:42%">OFF</div>
+<div class="k-facts" style="gap:22px">
+<p class="k-syn-band" style="margin:0">一天之中（每次服藥後的濃度起伏）</p>
+<div class="k-tg" data-s="2" style="border-color:#5F6B77"><i style="background:#5F6B77">1</i><h4>清晨 OFF、延遲 ON</h4><p class="k-tg-what">夜間無藥；胃排空慢、蛋白質競爭吸收</p></div>
+<div class="k-tg" data-s="2" style="border-color:#B5482F"><i style="background:#B5482F">2</i><h4>高峰期異動症</h4><p class="k-tg-what">濃度衝過異動症閾值</p></div>
+<div class="k-tg" data-s="3" style="border-color:#24476E"><i style="background:#24476E">3</i><h4>劑末藥效減退、部分 ON</h4><p class="k-tg-what">下一劑前掉到 ON 閾值以下</p></div>
+<div class="k-tg" data-s="3" style="border-color:#5F6B77"><i style="background:#5F6B77">4</i><h4>劑量失效</h4><p class="k-tg-what">這一劑沒有吸收到有效濃度</p></div>
 </div>
 </div>
-</div>
-<div class="k-g2" style="margin-top:18px">
-<div class="k-card butter" data-s="3"><h3>蛋白質</h3><p>大型中性胺基酸競爭同一轉運體 → 高蛋白餐與服藥錯開</p></div>
-<div class="k-card navy" data-s="3"><h3>胃排空延遲</h3><p>延遲 ON → 改變劑型或繞過胃的給藥途徑</p></div>
-</div>
-<p class="k-cite">出處：Fox SH, et al. Mov Disord 2018. PMID 29570866｜Pringsheim T, et al. Neurology 2021;97:942–957. PMID 34782410（圖為示意，非實測曲線）</p>
+
+<p class="k-cite">出處：Teymourian H, et al. Nat Rev Neurol 2022;18:497–507. PMID 35681103｜Fox SH, et al. Mov Disord 2018. PMID 29570866（左側為依原文概念重繪之示意，非實測）</p>
 </div>
 <template class="k-narr">
 <p data-step="0">這是整段最重要的概念圖。</p>
-<p data-step="1">早期黑質紋狀體末梢還能儲存多巴胺，血中濃度起伏，療效仍然平穩，治療窗很寬。</p>
-<p data-step="2">晚期緩衝消失，治療窗變窄：濃度低於門檻就 OFF，高於門檻就異動症。</p>
-<p data-step="3">吸收也受蛋白質與胃排空影響，所以後面的新劑型都在繞過這些關卡。</p>
+<p data-step="1">左邊是病程：早期治療窗很寬；隨著病程進展，要達到 ON 的濃度愈來愈高，異動症的門檻愈來愈低，十年後只剩一條窄縫。</p>
+<p data-step="2">右邊是一天：清晨沒有藥是 OFF，第一劑可能延遲起效；濃度衝太高就是異動症。</p>
+<p data-step="3">下一劑前掉到門檻以下就是藥效減退；有時一整劑都沒吸收好，就是劑量失效。</p>
+<p data-step="4">這是原文的圖，上半是病程，下半是一天的血中濃度。後面的新劑型，都是為了讓這條曲線變平。</p>
 </template>
 </section>
 <section class="k-slide" data-chapter="帕金森" data-title="早期起始選擇">
@@ -3116,7 +3140,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">傳統促效劑作用 D2/D3；tavapadon 選擇性作用直接路徑的 D1/D5 受體，2026 年發表三個第三期試驗</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>試驗</th><th>族群</th><th>主要結果</th></tr>
 <tr data-s="1"><td class="k-item">TEMPO-1（n = 529）</td><td>早期 PD；5 或 15 mg 固定劑量</td><td>MDS-UPDRS II+III 差 −11.5／−12.1 點（26 週）</td></tr>
 <tr data-s="2"><td class="k-item">TEMPO-2（n = 304）</td><td>早期 PD；5–15 mg 彈性劑量</td><td>顯著改善；停藥 38% vs 15%（副作用 24% vs 4%）</td></tr>
@@ -3139,7 +3163,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">非生理性的脈衝式多巴胺刺激，加上突觸前緩衝消失，讓療效跟著血中濃度起伏</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>類型</th><th>發生時點</th><th>藥理對策</th></tr>
 <tr data-s="1"><td class="k-item">藥效減退</td><td>下一劑前</td><td>縮短間隔、加 COMT 或 MAO-B 抑制劑、長效劑型、促效劑</td></tr>
 <tr data-s="1"><td class="k-item">不可預期 ON-OFF</td><td>與服藥無固定關係</td><td>連續給藥：皮下輸注、腸道凝膠、DBS</td></tr>
@@ -3205,7 +3229,7 @@ table.k-table td.k-item{font-size:29px}
 <div class="k-cg-arr" style="background:#2E8B74"><span class="k-pulse" style="background:#2E8B74"></span></div>
 <div class="k-cg-node" style="min-height:130px;border-color:#2E8B74"><h4>進入腦</h4><p>跨血腦障壁</p></div>
 </div>
-<table class="k-table" data-s="2" style="margin-top:20px;font-size:26px">
+<table class="k-table" data-s="2" style="margin-top:20px">
 <tr><th>途徑</th><th>繞過了什麼</th><th>例子</th></tr>
 <tr><td class="k-item">腸道凝膠輸注</td><td>胃排空</td><td>左多巴-carbidopa 腸道凝膠（PEG-J）</td></tr>
 <tr><td class="k-item">皮下連續輸注</td><td>胃排空與小腸吸收</td><td>foslevodopa-foscarbidopa；apomorphine</td></tr>
@@ -3251,7 +3275,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">共識以實證醫學為原則並強調個別化；健保條文決定了可用的藥物組合</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>項目</th><th>健保 1.3.4 規定重點</th></tr>
 <tr data-s="1"><td class="k-item">起始</td><td>出現功能障礙時，於左多巴之前或同時使用一種促效劑、或 amantadine、或左多巴＋COMT 抑制劑</td></tr>
 <tr data-s="2"><td class="k-item">Rasagiline</td><td>單獨每日 ≤ 1 mg；併用其他抗巴金森藥 ≤ 0.5 mg</td></tr>
@@ -3276,7 +3300,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">非運動症狀常比運動症狀更影響生活品質；多巴胺藥物本身也可能是原因</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>症狀</th><th>先檢查</th><th>藥物</th></tr>
 <tr data-s="1"><td class="k-item">幻覺、妄想</td><td>減少抗膽鹼、amantadine、促效劑</td><td>pimavanserin（5-HT2A 反向促效）、quetiapine、clozapine</td></tr>
 <tr data-s="2"><td class="k-item">失智（PDD）</td><td>排除譫妄、藥物</td><td>rivastigmine（健保：PD 診斷 ≥ 1 年後，神經科）</td></tr>
@@ -3306,7 +3330,7 @@ table.k-table td.k-item{font-size:29px}
 <div class="k-evi k-evcol" data-s="1"><span class="k-big2">2.9% vs 0.5%</span><p>3 年內診斷巴金森症（各 9,830 人，台灣健保資料庫）</p></div>
 <div class="k-evi k-evcol" data-s="2"><span class="k-big2">年齡、中風、糖尿病</span><p>顯著危險因子</p></div>
 </div>
-<table class="k-table" data-s="3" style="margin-top:20px;font-size:26px">
+<table class="k-table" data-s="3" style="margin-top:20px">
 <tr><th>類別</th><th>代表藥物</th></tr>
 <tr><td class="k-item">抗精神病藥</td><td>haloperidol、risperidone 等（典型藥最明顯）</td></tr>
 <tr><td class="k-item">止吐、腸胃蠕動藥</td><td>metoclopramide、prochlorperazine</td></tr>
@@ -3349,7 +3373,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">目前仍沒有證實能延緩 PD 進展的藥物；GLP-1 受體促效劑結果不一致</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>藥物</th><th>機轉</th><th>設計</th><th>結果</th></tr>
 <tr data-s="1"><td class="k-item">Prasinezumab</td><td>抗 α-syn 抗體</td><td>第二期，52 週，n = 316</td><td>MDS-UPDRS 差 −2.0 與 −0.6，未達顯著</td></tr>
 <tr data-s="2"><td class="k-item">Lixisenatide</td><td>GLP-1 受體促效</td><td>第二期，12 個月，n = 156</td><td>運動分數 −0.04 vs +3.04（差 3.08）；噁心 46%</td></tr>
@@ -3417,7 +3441,7 @@ table.k-table td.k-item{font-size:29px}
 <p class="k-sub">把五章放在一起看，會發現同一組原則反覆出現</p>
 </div>
 <div class="k-body">
-<table class="k-table" style="font-size:26px">
+<table class="k-table">
 <tr><th>原則</th><th>跨章節例子</th></tr>
 <tr data-s="1"><td class="k-item">同一機轉、多種疾病</td><td>topiramate（癲癇、偏頭痛）；肉毒桿菌毒素（偏頭痛、痙攣）；valproate（癲癇、偏頭痛）</td></tr>
 <tr data-s="2"><td class="k-item">藥物基因體</td><td>HLA-B*1502（carbamazepine）；CYP2C19（clopidogrel）；APOE ε4（ARIA）</td></tr>
@@ -3514,7 +3538,7 @@ table.k-table td.k-item{font-size:29px}
       <button class="go sage" id="kgo-auto">開始自動播放</button>
     </div>
   </div>
-  <p class="kb">版本 20261102-eda8｜自動播放中：空白鍵 暫停／繼續｜← → 上一句／下一句｜S 字幕｜M 配樂｜移動滑鼠叫出控制列，「選單」回到這裡</p>
+  <p class="kb">版本 20261102-e5de｜自動播放中：空白鍵 暫停／繼續｜← → 上一句／下一句｜S 字幕｜M 配樂｜移動滑鼠叫出控制列，「選單」回到這裡</p>
 </div></div>
 
 <!-- 控制列 -->
@@ -3539,7 +3563,7 @@ table.k-table td.k-item{font-size:29px}
 
 <audio id="k-voice" preload="auto"></audio>
 <audio id="k-bgm" preload="auto" loop></audio>
-<script src="beats.js?v=5b2c6355"></script>
+<script src="beats.js?v=a018bf07"></script>
 <script src="deck.js?v=2153d9d1"></script>
 </body>
 </html>
