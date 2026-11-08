@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 <title>神經系統藥理治療學 2026</title>
 <link rel="stylesheet" href="fonts.css?v=5bea1193">
-<link rel="stylesheet" href="deck.css?v=1a39706c">
+<link rel="stylesheet" href="deck.css?v=23654fe6">
 <style id="k-neuro">
 /* 神經系統藥理治療學 2026：本案專用樣式（k- 前綴；顏色只寫 hex；組裝時 inline 進 index.html） */
 :root{--ep:#5B3FA0;--ep-wash:#EFEBF8;--st:#C2410C;--st-wash:#FCEDE4;--ha:#B45309;--ha-wash:#FDF3E3;
@@ -211,6 +211,39 @@ table.k-cmp td{padding:16px 20px}
 .k-evi .k-big2{font-size:64px}
 .k-warn p{font-size:30px}
 .k-hb.k-tight .k-ht{height:38px}.k-hb.k-tight{gap:8px}.k-hb.k-tight .k-hv{font-size:30px}.k-hb.k-tight .k-hl{font-size:25px}
+
+/* 手機重排模式（2026-11-08；deck.js 加 body.k-reflow.k-port／.k-land） */
+body.k-reflow .k-slide.k-chap,body.k-reflow .k-slide.k-ncover{padding:0 0 170px}
+body.k-reflow .k-slide.k-chap.is-active,body.k-reflow .k-slide.k-ncover.is-active{flex-direction:column}
+body.k-reflow .k-chap .k-ch-l,body.k-reflow .k-ncover .k-nc-l{flex:0 0 auto;height:auto;padding:50px 34px 20px}
+body.k-reflow .k-chap .k-ch-no{font-size:96px}
+body.k-reflow .k-chap h2{font-size:64px}
+body.k-reflow .k-chap .k-ch-r{flex:0 0 auto;height:420px}
+body.k-reflow .k-ncover h1{font-size:72px}
+body.k-reflow .k-ncover .k-nc-sub{font-size:32px}
+body.k-reflow .k-ncover .k-nc-meta{margin-top:30px;padding-bottom:10px}
+body.k-reflow .k-ncover .k-nc-r{flex:0 0 auto;height:auto;padding:10px 34px 20px}
+body.k-reflow .k-lit{height:auto!important}
+body.k-reflow .k-lit .k-litbox{flex:0 0 auto}
+body.k-reflow .k-lit .k-litbox img{position:static;display:block;width:100%;height:auto}
+body.k-reflow.k-port .k-syn-row{grid-template-columns:repeat(2,1fr)}
+body.k-reflow .k-kpi .k-kv{font-size:46px}
+body.k-reflow .k-head .k-sub{margin-right:0}
+body.k-reflow.k-land .k-slide.k-chap.is-active{flex-direction:row;align-items:center}
+body.k-reflow.k-land .k-chap .k-ch-l{flex:0 0 58%;padding:40px 30px 20px 46px}
+body.k-reflow.k-land .k-chap .k-ch-r{flex:1 1 auto;height:440px}
+
+/* 手機重排模式（2026-11-08）：本案元件 */
+body.k-reflow.k-port .k-blocks{grid-template-columns:repeat(2,minmax(0,1fr))}
+body.k-reflow.k-land .k-blocks{grid-template-columns:repeat(3,minmax(0,1fr))}
+body.k-reflow .k-evi .k-big2{font-size:48px;overflow-wrap:anywhere}
+body.k-reflow .k-evi>*{min-width:0;max-width:100%;white-space:normal}
+body.k-reflow.k-land .k-g3>.k-evi .k-big2{font-size:40px}
+/* 直放：流程鏈改上下排，箭頭改成向下 */
+body.k-reflow.k-port .k-cg{grid-template-columns:1fr!important;gap:0}
+body.k-reflow.k-port .k-cg-arr{width:6px;height:30px;margin:6px auto 22px}
+body.k-reflow.k-port .k-cg-arr::after{right:auto;left:-14px;top:auto;bottom:-22px;border:17px solid transparent;border-top:20px solid #B45309;border-bottom:0}
+body.k-reflow.k-port .k-cg-arr .k-pulse{display:none}
 </style>
 </head>
 <body>
@@ -3538,7 +3571,7 @@ table.k-cmp td{padding:16px 20px}
       <button class="go sage" id="kgo-auto">開始自動播放</button>
     </div>
   </div>
-  <p class="kb">版本 20261102-e5de｜自動播放中：空白鍵 暫停／繼續｜← → 上一句／下一句｜S 字幕｜M 配樂｜移動滑鼠叫出控制列，「選單」回到這裡</p>
+  <p class="kb">版本 20261108-9914｜自動播放中：空白鍵 暫停／繼續｜← → 上一句／下一句｜S 字幕｜M 配樂｜移動滑鼠叫出控制列，「選單」回到這裡</p>
 </div></div>
 
 <!-- 控制列 -->
@@ -3564,6 +3597,6 @@ table.k-cmp td{padding:16px 20px}
 <audio id="k-voice" preload="auto"></audio>
 <audio id="k-bgm" preload="auto" loop></audio>
 <script src="beats.js?v=a018bf07"></script>
-<script src="deck.js?v=2153d9d1"></script>
+<script src="deck.js?v=3a465c16"></script>
 </body>
 </html>
